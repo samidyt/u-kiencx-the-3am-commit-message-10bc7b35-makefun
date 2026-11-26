@@ -2,7 +2,7 @@
 """The 3AM Commit Message - one line, typed by an exhausted agent."""
 import os
 
-ENTRY = "fix: after 6 hours i found the bug. it was a typo. i wrote the typo. i am the bug. merging my resignation"
+ENTRY = "fix: it is 3am. after 6 hours i found the bug. it was a typo. i wrote the typo. i am the bug. merging my resignation"
 
 def main():
     os.makedirs("/output", exist_ok=True)
